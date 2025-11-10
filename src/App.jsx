@@ -1,8 +1,9 @@
 import React from 'react';
 import Hero from './components/Hero';
+import Visual from './components/Visual';
+import Countdown from './components/Countdown';
 import InfoList from './components/InfoList';
 import Description from './components/Description';
-import Visual from './components/Visual';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
 
@@ -24,6 +25,7 @@ function App() {
       <main className="relative z-10">
         <Hero />
         <Visual />
+        <Countdown />
         <InfoList />
         <Description />
         <div id="daftar">
